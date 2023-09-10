@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/key-icon.png">
+    <title>Password Generator</title>
+</head>
+<body>
+    <header> <p>&#169;Sushant Jha </p>
+
+    </header>
+   <div class="container">
+       <h1>Generate a<br><span><b>Random Password</b></span></h1>
+       <div class="display">
+           <input type="text" id="password" placeholder="Password">
+           <img src="images/copy.png" onclick="function copyPassword()">
+       </div>
+       <button onclick="createPassword()"> <img src="images/generate.png"> Generate Password</button>
+   </div>
+
+   <div class="footer">
+    <a href="https://twitter.com/itz_sushantjha" class="fa fa-twitter"></a>
+    <a href="https://www.linkedin.com/in/sushant-jha-5017a0239/" class="fa fa-linkedin"></a>
+    <a href="https://github.com/thenameissushant" class="fa fa-github"></a>
+ </div>
+
+   <script src="app.js"></script>
+</body>
+</html>
