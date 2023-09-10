@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+header p{
+    margin-top: 10px; 
+    margin-left:90%;
+    color:#00dd76
+}
+
+header p:hover{
+    color:#fff;
+}
+
+body{
+    background: #002339;
+    color:#fff;
+}
+
+.container{
+    margin:8%;
+    width:90%;
+    max-width: 700px;
+}
+
+.display{
+    width:100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background: #fff;
+    color:#333;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 26px 20px;
+    border-radius: 5px;
+}
+
+.container h1{
+    font-weight: 500;
+    font-size: 50px;
+}
+
+.container h1 span{
+    color:#019f55;
+    font-size:60px;
+    border-bottom: 4px solid #019f55;
+    padding-bottom: 4px;
+}
+
+.display img{
+    width:40px;
+    cursor: pointer;
+}
+
+.display input{
+    border:0;
+    outline: 0;
+    font-size: 24px;
+}
+
+.container button img{
+    width:28px;
+    margin-right: 10px;
+}
+
+.container button{
+    border:0;
+    outline:0;
+    background: #019f55;
+    color:#fff;
+    font-size: 22px;
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px 26px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.footer{
+    position: absolute;
+    bottom: 0;
+    list-style: none;
+    margin-left: 90%;
+    margin-bottom:5%;
+    }
+
+    .fa {
+        font-size: 30px;
+        text-decoration: none;
+        margin-left: 90%;
+        padding-top: 40px;
+      }
+      
+      .fa:hover {
+          color:#00dd76;
+      }
+    
+    .fa-twitter {
+        color: white;
+      }
+    
+      .fa-linkedin {
+        color: white;
+      }
+    
+      .fa-github {
+        color: white;
+      }
